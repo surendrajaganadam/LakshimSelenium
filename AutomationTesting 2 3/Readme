@@ -1,0 +1,41 @@
+Pre-requisites:
+1. JDK 1.8
+2. Eclipse
+3. Maven
+4. Appium- desktop
+5. Android studio
+6. Update environmental variables with java, android, maven 
+
+
+
+Framework has 2 sets of packages: 
+1. src/test/java: compelete java code is maintained here
+2. src/test/resources: drivers, features files, test data, page objects will be maintained here
+
+
+Steps to create/execute web scripts:
+1. create a feature file
+2. identify page objects and update them in resources
+3. create a reference of page obejcts in java package
+4. create step definitions logic 
+5. Specify tagname for the scenario in the runner class
+6. Execute runner class
+
+Steps to create/execute mobile script:
+1. create a feature file
+2. identify page objects using appium desktop and update them in resources
+3. create a reference of page obejcts in java package
+4. create step definitions logic 
+5. Specify tagname for the scenario in the runner class
+6. Execute runner class
+
+
+change tag name in below file to mobile or web
+src\test\java\com\automation\runner\TestRunner.java
+
+If the value is Mobile : it will execute script on mobile device
+If the value is Web : it will launch a browser and execute on the browser
+
+Update device specific information in rc\test\resources\config\config.property
+
+Find Execution reports in below folder with execution date and time stamp

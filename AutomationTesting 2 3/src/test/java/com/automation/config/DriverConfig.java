@@ -87,7 +87,7 @@ public class DriverConfig {
 			case Constants.CHROME:
 				try {
 					System.setProperty(Constants.CHROME_WEBDRIVER,
-							baseProjectPath.concat(Constants.CHROME_DRIVER_PATH));
+							"C:\\Users\\mvssr\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe");
 					driver = new ChromeDriver();
 					LocalDriverManager.setWebDriver(driver);
 				} catch (Exception exception) {

@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = Constants.END_TO_END_FEATURES_PATH, 
 		glue = {"com.automation.steps"},
-		 	 tags="@e2escenario"
+		 	 tags="@Lakshmi"
 		 	 
 		)
 public class TestRunner {

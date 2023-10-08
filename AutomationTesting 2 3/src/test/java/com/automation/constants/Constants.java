@@ -48,6 +48,16 @@ public class Constants
 
 	/** The Constant CONFIG_PROPERTY. */
 	public static final String CONFIG_PROPERTY = "/src/test/resources/config/config.property";
+	
+	
+	/** LoginSauceDemo Property file */
+	/** The Constant LANDING_PAGE_OBJECTREPOSITORY_PROPERTY. */
+	public static String loginpagelocator = "\\src\\\\test\\\\resources\\\\pageobjects\\\\LoginPageLak.property";
+	public static String SauceDemolocator = "\\src\\\\test\\\\resources\\\\pageobjects\\\\SauceDemoInventory.property";
+	public static String SauceDemoCartlocator = "\\src\\\\test\\\\resources\\\\pageobjects\\\\SauceDemoCart.property";
+	public static String SauceDemoCheckOutlocator = "\\src\\\\test\\\\resources\\\\pageobjects\\\\SauceDemoCheckoutInfo.property";
+	public static String SauceDemoFinalSteplocator = "\\src\\\\test\\\\resources\\\\pageobjects\\\\SauceDemoFinalStep.property";
+	
 
 	/** The Constant HANDLE_POPUP. */
 	public static final String HANDLE_POPUP = "HANDLE_POPUP";
